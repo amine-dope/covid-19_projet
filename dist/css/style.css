@@ -1,0 +1,91 @@
+body {
+  font-family: 'Cairo', sans-serif !important; }
+
+.navbar {
+  background-image: url("/dist/img/png/bar-1.png");
+  background-size: cover;
+  height: 4.6vw;
+  padding: 0 64px; }
+  .navbar img {
+    width: 1.6em; }
+  .navbar .nav-item {
+    padding: 0 10px; }
+
+.hero {
+  width: 100%;
+  background-color: #F4CF1B;
+  padding: 20px;
+  margin-bottom: 50px;
+  text-align: center; }
+  .hero__title {
+    color: #1078AD;
+    font-size: 28px;
+    font-weight: 700; }
+  .hero__text {
+    margin-bottom: 0rem;
+    padding: .3em; }
+
+.container {
+  display: flex;
+  align-items: center;
+  direction: rtl;
+  margin-bottom: 70px; }
+  .container .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .container .info__title {
+      width: 100%;
+      font-size: 26px;
+      font-weight: 900;
+      text-align: justify;
+      text-align-last: center;
+      color: #1078AD;
+      margin-bottom: 30px;
+      unicode-bidi: plaintext; }
+    .container .info img {
+      width: 58px;
+      height: auto;
+      margin-bottom: 30px; }
+    .container .info__content {
+      width: 100%;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: center;
+      color: #7F7F7F;
+      line-height: 35px;
+      margin-bottom: 30px;
+      direction: ltr; }
+    .container .info__btn {
+      width: 100%;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: right;
+      color: #1078AD;
+      background: url(/dist/img/png/button-bg.png);
+      border: 2px solid #1078AD;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      text-align: center;
+      padding: .5rem 1rem;
+      cursor: pointer;
+      transition: 0.5s ease; }
+      .container .info__btn:hover {
+        background: linear-gradient(rgba(16, 121, 173, 0.9), rgba(16, 121, 173, 0.9)), url(/dist/img/png/button-bg.png);
+        color: aliceblue; }
+
+.symptoms {
+  margin-bottom: 70px; }
+  .symptoms__cont {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+  .symptoms__title {
+    text-align: center;
+    font: Bold 35px/39px Cairo;
+    letter-spacing: 0;
+    color: #1078AD;
+    margin-bottom: 40px; }
