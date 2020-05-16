@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    margin-bottom: 70px;
+  
+   .banner{
+      
+     
+         
+      
+   }
+   .info{
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__title{
+              width: 100%;
+          font-size: 26px;
+          font-weight: 900;
+          text-align: justify;
+          text-align-last: center;
+          color: #1078AD;
+          margin-bottom: 30px;
+          unicode-bidi: plaintext;
+      }
+      img{ 
+              width: 58px;
+          height: auto;
+          margin-bottom: 30px;
+          
+      }
+      &__content{
+              width: 100%;
+          font-size: 22px;
+          font-weight: 700;
+          text-align: center;
+          color: #7F7F7F;
+          line-height: 35px;
+          margin-bottom: 30px;
+          direction: ltr;
+      }
+    
+      &__btn{
+          width: 100%;
+          font-size: 22px;
+          font-weight: 700;
+          text-align: right;
+          color: #1078AD;
+          background:  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),url(/dist/img/png/button-bg.png);
+          border: 2px solid #1078AD;
+          background-size: cover;
+          background-repeat: no-repeat;
+          border-radius: 10px;
+          text-align: center;
+          padding: .5rem 1rem;
+          cursor: pointer;
+          transition: .2s cubic-bezi();
+           &:hover{
+              background: linear-gradient(rgba(16, 121, 173, 0.9), rgba(16, 121, 173, 0.9)), url(/dist/img/png/button-bg.png);
+              color: aliceblue;
+              
+           }           
+      
+      }
+   }
+  
+  }
+
+
+  @media only screen and (max-width: 750px){
+    .container{
+
+        display:grid;
+        grid-template-columns: 100%;
+    }
+
+    
+    }
+        
+            
+            
+        
+    
+        
+    
+
