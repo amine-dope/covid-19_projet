@@ -1,0 +1,60 @@
+.footer{
+    display: flex;
+
+align-items: center;
+justify-content: space-around;
+text-align: center;
+&__contact{
+    font-family: 'Cairo', sans-serif;
+    h2{
+    
+font-size: 1.5em;
+font-weight: 700;
+color: #1078AD;
+}
+p{
+    
+font-size: 1em;
+font-weight: 700;
+color: #2B2B2C;
+}
+h5{
+    
+font-size: 1.5em;
+font-weight: 700;
+color: #369D53;
+
+}
+}
+.utiles{
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.acc {
+font-weight: bold;
+font-size: 20px;
+color:#1078AD;
+border-bottom:  1px solid rgba(16, 121, 173, 0.5);
+width: 300px;
+
+}
+.cons {
+font-size: 20px;
+border-bottom:  1px solid rgba(16, 121, 173, 0.5);
+width: 300px;
+
+}
+}
+
+.cons:hover {
+color:  #1078AD;
+}
+
+
+
+
+
+}
