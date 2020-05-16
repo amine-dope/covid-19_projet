@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="/dist/img/png/logo__sante-1.png" type="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/css/flag-icon.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+  <title>Covid-19</title>
+</head>
+
+<body>
+  <!--header section-->
+  <section class="header">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand text-primary"><img src="./img/png/logo__sante-18@2x.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="conseils.html">Conseils</a>
+          <a class="nav-item nav-link active " href="#">
+            <dt> Accueil</dt> <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-item nav-link" href="#"><img src="/dist/img/png/france.png" alt=""></a>
+
+
+        </div>
+      </div>
+    </nav>
+  </section>
+
+<!-- <div> 
+  <ul class="stepper">
+    <li class="step active">
+      <span class="upper-text"></span>
+      <span class="dot"></span>
+      <span class="lower-text">
+        Information
+      </span>
+    </li>
+   
+   <li class="step active">
+    <span class="upper-text"></span>
+    <span class="dot"></span>
+      <span class="lower-text">
+        Questionnaire
+      </span>
+    </li>
+    <li class="step active">
+      <span class="upper-text"></span>
+      <span class="dot"></span>
+      <span class="lower-text">
+        Resultat
+      </span>
+    </li>
+ 
+ </ul>
+</div> -->
+<div class="stepper" id="stepper"> 
+  <ul class="list"  id="list">
+      <li class="list__item list__item--active" >Information</li>
+      <li class="list__item" >Questionnaire</li>
+      <li class="list__item" >Résultats</li>
+  </ul>
+  </div>
+
+  
+
+  <div class="préambule" id="préambule">
+    <div class="texto">
+      <div  id="qst">
+        <h3>Préambule</h3>
+        <p id="para">
+          « L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour contribuer à
+          fluidifier
+          la prise en charge des personnes par les services d’urgencespendant l’épidémie de Coronavirus COVID-19.
+          L’exhaustivité,
+          l’exactitude, le caractère à jour des informations et contenu mis à disposition dans cette application, ou leur
+          adéquation
+          à des finalités particulières, ne sont pas garantis.
+        </p>
+  
+        <hr>
+        <p >
+          Cette application ne substitue pas votre médecin qui est plus apte à vous donner plus de précision.
+      Les informations de cette application est le premier niveau de la détection des cas possibles du COVID-19.
+        </p>
+      </div>
+
+      
+ <form  class ="rps"   id="rps"></form>
+        
+       
+    </div>
+
+
+
+    <div class="test" id="tstAria">
+      <button type="button" class="btn" id="tst">Demarer le test</button>
+      <button class="previous" id="previous" >Précédent</button>
+      
+    </div>
+
+    
+
+  </div>
+
+  <!------------------------------------------------------------- partie question--------------------------------------------------------->
+-
+<div class="box" id="box"> 
+  <div class="progressbar-box" >
+      <div class="conteur" id ='count'>count</div>
+      <div class="progressbar" ><div class="progress" id="prog"></div></div>
+  </div>
+
+</div>
+
+
+
+
+<section class="logo">
+  <div class="logo1">
+      <img   src="/dist/img/png/logo__sante-1.png" alt="logo">
+  </div>
+</section>
+  <section class="footer">
+    <div class="footer__contact">
+      <h2>Contacts utiles</h2>
+      <p>Numéro économique - Allo veille épidémiologique</p>
+      <h5>080 100 47 47</h5>
+      <p>Aide médicale urgente - Allo SAMU</p>
+      <h5>141</h5>
+      <p>la plateforme téléphonique- Allo 300</p>
+      <h5>300</h5>
+    </div>
+    <div class="utiles">
+      <a href="Accueil.html">
+        <p class="acc">Accueil</p>
+      </a>
+      <a href="conseils.html">
+        <p class="cons">Conseils</p>
+      </a>
+
+    </div>
+  </section>
+  <div class="back"></div>
+
+  <script src="js/script.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script> 
+</body>
+
+</html>
